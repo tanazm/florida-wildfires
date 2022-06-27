@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.text-container {
+    max-width: 50%; 
+    margin: 0 auto
+  }
+
+  .text-container p {
+    color:rgb(0, 0, 0);
+  }
+  
+  .text-container a {
+    color:rgb(0, 0, 0);
+  }
+  
+  .text-container a:hover {
+      color:#210dda;
+    }
+
+.text-container2 {
+    max-width: 50%; 
+    margin: 0 auto
+  }
+
+.text-container2 p {
+  color:rgb(0, 0, 0);
+}
+
+.text-container2 a {
+  color:rgb(0, 0, 0);
+}
+
+.text-container2 a:hover {
+    color:#210dda;
+  }
+
+.viz-container {
+    max-width: 100%; 
+    margin: 0 auto;
+  }
+  
+h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:500;
+  }
+  
+h2 {
+    letter-spacing: 1px;
+    font-weight:400;
+    font-size:20px;
+  }
+  
+p {
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
+
+  h3 {
+    font-weight: 300;
+    letter-spacing: .5px;
+  }
+
+.menu {
+    padding:20px;
+    letter-spacing:.03em;
+    background-color:#00B398;
+  }
+  
+.menu a {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size:1em;  
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+.menu a:hover {
+    color:#454545;
+  }
+
+#map {
+    width: 50%;
+    height: 600px;
+    margin: 3em 30em;
+}
+
+.mapboxgl-popup-content h4 {
+    font-weight: 300;
+    font-size: 0.9em;
+    border-width: 0px 0px 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.mapboxgl-popup-content h2 {
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.mapboxgl-popup-content p {
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+
+.title {
+	background-color: rgb(57, 56, 56);
+	opacity: 100%;
+	border-radius: 0em;
+	top: 5em;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+	font: .8em/.9em 'Roboto', sans-serif;
+	line-height: 2.5em;
+	padding: 0em 0em 1em 1em;
+	position: absolute;
+	width: 210px;
+	margin: 55em 35em;
+	z-index: 100;
+}
+
+.title h4 {
+	line-height: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 200px;
+  color: white;
+}
+
+.title div span {
+	border-radius: 50%;
+	display: inline-block;
+	height: 10px;
+	margin-left: 5px;
+	width: 10px;
+}
+
+.title hr {
+	border-top: .2em dashed #404040;
+	border-bottom: 0em;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+
+.legend {
+    font: 1em/1.5em 'Roboto', sans-serif;
+    padding: .3em 1em .3em 1em;
+    position: relative;
+    right: 10px;
+    z-index: 100;
+    opacity: 100%;
+  }
+
+.legend h4 {
+    margin: 0 0 10px;
+    opacity: 100%
+  }
+
+.legend p {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+.legend div span {
+    border-radius: 0%;
+    display: inline-block;
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 10px;
+    }
+
+.legend div {
+      color:white;
+      }

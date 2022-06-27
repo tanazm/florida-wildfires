@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildfires</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="menu">
+    <a hover href="https://tanazm.github.io/points-unknown/" target="_blank" rel="noopener noreferrer">homepage</a>
+</div>
+<body>
+    <div class="text-container">
+        <br>  
+        <h2>Eight counties in Florida have the potential for high intensity wildfires.</h2>
+        <p>Florida <a hover href="https://www.npr.org/2021/08/31/1029821831/to-stop-extreme-wildfires-california-is-learning-from-florida" target="_blank" rel="noopener noreferrer">leads the nation</a> in prescription burning, which is the act of setting planned fires to maintain the health of a forest. In an average year, the Florida Forest Service will issue about 88,000 authorizations, allowing landowners and agencies to <a hover href="https://www.fdacs.gov/Forest-Wildfire/Wildland-Fire/Prescribed-Fire" target="_blank" rel="noopener noreferrer">burn over 2.1 million acres</a>.</p>
+        <p>This practice has helped Florida manage land and protect biodiversity. It can also help prevent wildfires by ridding forests of dead leaves, shrubs, and other debris.</p>
+        <p>This is critical because there are eight counties in northern Florida that have more than a 50% probability of experiencing flame lengths greater than eight feet if a wildfire were to occur. According to The Wildfire Risk to Communities project, flame lengths greater than eight feet are beyond the limit of mechanical control and indicate the potential for high wildfire intensity.</p>
+        <p>The only state with more counties passing this threshold is Georgia with nine counties.</p>
+        <p>Click a county to see its name and the probability that flame lengths in that county would exceed eight feet in the event of a wildfire.</p>
+        <p>To see where prescribed fires are taking place in Florida, <a hover href="https://whyprescribedfire.org/burn-map/" target="_blank" rel="noopener noreferrer">click here</a>.</p>
+    </div>
+    <body>
+    <div class="viz-container">
+    <div id='map'></div>
+        <script type='text/javascript' src="map.js"></script>
+        <div id='title' class="title">
+            <h4>Probability of flame lengths greater than 8 feet</h4>
+            <div id="income-legend" class="legend">
+                <div><span style="background-color: #fef0d9"></span>0 - 8.9%</div>
+                <div><span style="background-color: #fdcc8a"></span>8.9% - 17.1%</div>
+                <div><span style="background-color: #fc8d59"></span>17.1% - 26.7%</div>
+                <div><span style="background-color: #e34a33"></span>26.7% - 39.2%</div>
+                <div><span style="background-color: #b30000"></span>39.2% - 73.7%</div>
+            </div>
+        </div>
+    </div>
+    </body>
+    <div class="text-container2">
+        <br>
+        <p>Notes:</p>
+        <p>1. This visualization has not been vetted by scientists.</p>
+        <p>2. After exploring several different classification methods, I decided to use natural breaks to create the legend used in this map.</p>
+        <br>
+        <p>Source: <a hover href="https://brown-institute-assets.s3.amazonaws.com/Objects/pointsunknown/WildfireRiskToCommunities_County_Summary_2020-03-31.xlsx" target="_blank" rel="noopener noreferrer">Wildfire Risk to Communities</p>
+        <br>
+    </div>
+    <div class="menu">
+        <br> 
+    </div>
+</body>
+</html>
