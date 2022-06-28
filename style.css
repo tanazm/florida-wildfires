@@ -89,7 +89,7 @@ p {
 #map {
     width: 50%;
     height: 600px;
-    margin: 3em 30em;
+    margin: 3em auto;
 }
 
 .mapboxgl-popup-content h4 {
@@ -125,7 +125,7 @@ p {
 	padding: 0em 0em 1em 1em;
 	position: absolute;
 	width: 210px;
-	margin: 55em 35em;
+	margin: 50% 30%;
 	z-index: 100;
 }
 
